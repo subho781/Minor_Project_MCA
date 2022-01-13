@@ -2,7 +2,7 @@
 
 	<div class="container">
 		<div class="jumbotron">
-			<h3 class="display-3" style="text-align: center;">Admin & CO Admin Login</h3>
+			<h3 class="display-3" style="text-align: center;">Admin & Admin Login</h3>
 			<hr>
 			<div class="my-4">
 				<div class="row">
