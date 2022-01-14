@@ -8,11 +8,7 @@
 		</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-<<<<<<< HEAD
 		  <a href="#" class="navbar-brand" style="color: #fff;">College Management System </a>
-=======
-		  <a href="#" class="navbar-brand" style="color: #fff;">College Management System</a>
->>>>>>> 6f3c2e67b11b9d4f168276af6ade110bb3b6ae57
 
 			<div class="col-lg-2 ml-auto" style="margin-top: 15px;" id="">
 				<div class="btn btn-group btn-light btn-sm">
