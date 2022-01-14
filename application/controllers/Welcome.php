@@ -21,7 +21,11 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('home');
+		$this->load->model('queries');
+		$chkAdminExist=$this->queries->chkAdminExist();
+		// echo $chkAdminExist;
+		// exit();
+		$this->load->view('home', ['chkAdminExist'=>$chkAdminExist]);
 	}
 
 	public function adminRegister()
@@ -36,7 +40,7 @@ class Welcome extends CI_Controller {
 	public function adminSignup()
 	{
 		$this->form_validation->set_rules('username', 'Username', 'required');
-		$this->form_validation->set_rules('email', 'Email', 'required');
+		$this->form_validation->set_rules('email', 'Email', 'required|valid_email');
 		$this->form_validation->set_rules('gender', 'Gender', 'required');
 		$this->form_validation->set_rules('role_id', 'Role', 'required');
 		$this->form_validation->set_rules('password', 'Password', 'required');
@@ -74,7 +78,7 @@ class Welcome extends CI_Controller {
 
 	public function signin()
 	{
-		$this->form_validation->set_rules('email', 'Email', 'required');
+		$this->form_validation->set_rules('email', 'Email', 'required|valid_email');
 		$this->form_validation->set_rules('password', 'Password', 'required');
 
 		if ($this->form_validation->run())
