@@ -52,8 +52,8 @@
 			</div>
 		</div>
 
-		<button type="submit" class="btn btn-primary">Login</button>
-		<?php echo anchor("welcome", "Back", ['class'=>'btn btn-primary']); ?>
+		<button type="submit" class="btn btn-success">Login</button>
+		<?php echo anchor("welcome", "Back", ['class'=>'btn btn-danger']); ?>
 
 		<?php echo form_close(); ?>
 	</div>
