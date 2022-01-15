@@ -7,12 +7,12 @@
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>">
 		</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-info bg-info">
+		<nav class="navbar navbar-expand-lg navbar-primary bg-primary">
 		  <a href="#" class="navbar-brand" style="color: #fff;">College Management System </a>
 
 			<div class="col-lg-2 ml-auto" style="margin-top: 15px;" id="">
-				<div class="btn btn-group btn-light btn-sm">
-					<a href="#" class="btn btn-sm">Settings</a>
+				<div class="btn btn-group btn-active btn-sm">
+					<a href="#" class="btn btn-md">Settings</a>
 					<a href="#" class="btn btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 						<span class="caret"></span></a>
 					<ul class="dropdown-menu">

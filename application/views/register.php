@@ -14,7 +14,7 @@
 			</div>
 		<?php endif; ?>
 
-		<h3>Admin Register</h3>
+		<h1>ADMIN REGISTER</h1>
 		<hr>
 		<div class="row">
 			<div class="col-md-6">
@@ -121,8 +121,8 @@
 			</div>
 		</div>
 
-		<button type="submit" class="btn btn-primary">Register</button>
-		<?php echo anchor("welcome", "Back", ['class'=>'btn btn-primary']); ?>
+		<button type="submit" class="btn btn-success">Register</button>
+		<?php echo anchor("welcome", "Back", ['class'=>'btn btn-danger']); ?>
 
 		<?php echo form_close(); ?>
 	</div>
