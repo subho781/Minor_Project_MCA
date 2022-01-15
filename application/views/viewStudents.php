@@ -24,8 +24,8 @@
 								<td><?php echo $i; $i++ ?></td>
 								<td><?php echo $student->studentname; ?></td>
 								<td><?php echo $student->collegename; ?></td>
-								<td><?php echo $student->email; ?></td>
 								<td><?php echo $student->gender; ?></td>
+								<td><?php echo $student->email; ?></td>
 								<td><?php echo $student->course; ?></td>
 								<td><?php echo anchor("admin/editstudent/{$student->id}", 'Edit', ['class'=>'btn btn-primary btn-sm mx-1']); ?>
 										<?php echo anchor("admin/deletestudent/{$student->id}", 'Remove', ['class'=>'btn btn-danger btn-sm mx-1']); ?>
