@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>">
 		</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+		<nav class="navbar navbar-expand-lg navbar-info bg-info">
 		  <a href="#" class="navbar-brand" style="color: #fff;">College Management System </a>
 
 			<div class="col-lg-2 ml-auto" style="margin-top: 15px;" id="">
