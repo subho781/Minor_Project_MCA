@@ -3,7 +3,7 @@
 	<div class="container">
 		<h3>Welcome to Dashboard
 			<div class="float-right">
-				<?php echo anchor("welcome/logout", 'Logout', ['class'=>'btn btn-primary btn-sm']); ?>
+				<?php echo anchor("welcome/logout", 'Logout', ['class'=>'btn btn-danger btn-sm']); ?>
 			</div>
 		</h3>
 		<?php $username = $this->session->userdata('username'); ?>
