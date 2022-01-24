@@ -27,8 +27,8 @@ class Welcome extends CI_Controller {
 		$this->form_validation->set_rules('email', 'Email', 'required|valid_email');
 		$this->form_validation->set_rules('gender', 'Gender', 'required');
 		$this->form_validation->set_rules('role_id', 'Role', 'required');
-		$this->form_validation->set_rules('password', 'Password', 'required');
-		$this->form_validation->set_rules('confpwd', 'Password Confirmation', 'required');
+		$this->form_validation->set_rules('password', 'Password', 'required|min_length[6]');
+		$this->form_validation->set_rules('confpwd', 'Password Confirmation', 'required|min_length[6]');
 
 		if ($this->form_validation->run()) {
 			$data = $this->input->post();
