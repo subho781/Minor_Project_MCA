@@ -14,7 +14,7 @@
 			</div>
 		<?php endif; ?>
 
-		<h1>ADMIN LOGIN</h1>
+		<h1>ADMIN & MODERATOR LOGIN</h1>
 		<hr>
 
 		<div class="row">
